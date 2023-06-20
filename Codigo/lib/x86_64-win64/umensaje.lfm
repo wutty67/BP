@@ -1,0 +1,72 @@
+object Form3: TForm3
+  Left = 193
+  Height = 582
+  Top = 127
+  Width = 715
+  Caption = 'Form3'
+  ClientHeight = 582
+  ClientWidth = 715
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object LMensaje: TLabel
+    Left = 16
+    Height = 1
+    Top = 88
+    Width = 1
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object LPalabra: TLabel
+    Left = 16
+    Height = 1
+    Top = 128
+    Width = 1
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object LSindromeBueno: TLabel
+    Left = 16
+    Height = 1
+    Top = 168
+    Width = 1
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object LYRecibido: TLabel
+    Left = 8
+    Height = 1
+    Top = 320
+    Width = 1
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object LSindromeRecibido: TLabel
+    Left = 8
+    Height = 1
+    Top = 360
+    Width = 1
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+end
